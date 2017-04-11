@@ -6,6 +6,8 @@
 * Xingyu Wan
 
 ### Augmented Reality Fighting Game (similar to Street Fighter)
+
+![alt] (http://www.nintendoworldreport.com/media/27386/4/3.jpg)
 #### Features:
 * Live HDMI video feed from camera as input (720p, 60FPS)
 * Green screen background that immerses players in different environments
