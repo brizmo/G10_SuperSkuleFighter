@@ -40,4 +40,4 @@ Instructions:
 5. Open SDK (export hardware if you created a new bitstream)
 6. Program FPGA using bitstream
 7. Build and run
-  1. The thresholds for color detection can be changed through the video_demo.c file 
+    * The thresholds for color detection can be changed through the video_demo.c file 
