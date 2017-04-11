@@ -8,9 +8,11 @@
 ### Augmented Reality Fighting Game (similar to Street Fighter)
 
 Street Fighter II
+
 ![alt]( http://www.nintendoworldreport.com/media/27386/4/3.jpg "SF" )
 
 Super Skule Fighter
+
 ![alt](https://github.com/tabrizimo/G10_SuperSkuleFighter/blob/master/doc/image.png "SSF")
 
 #### Features:
