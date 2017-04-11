@@ -58,7 +58,7 @@ Instructions:
 * __doc:__ the documentation that supports the project
    * __Presentation.pdf:__ powerpoint file used during final demo presentation 
    * __demo_video.wmv:__ video demonstration of the project in operation
-   * __Group Report:__ report file
+   * __group_report.pdf:__ report file
 
 * __input_data:__ contains images, photoshop, and scripts used for generating .coe files
 
