@@ -12,9 +12,9 @@
 * Real time HDMI video output with no frame rate drop or down-scaling
 * Motion detection of attacks of two players through tracking of specific colors
 
-#### How to use:
-##### Disclaimer: We are not responsible for any injuries that may result due to playing this game!
-##### Practice safe fake fighting!
+### How to use:
+#### Disclaimer: We are not responsible for any injuries that may result due to playing this game!
+#### Practice safe fake fighting!
 
 Required Items: 
 * Computer with Vivado 2016.2
