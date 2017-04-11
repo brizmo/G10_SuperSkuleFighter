@@ -7,13 +7,15 @@
 
 ### Augmented Reality Fighting Game (similar to Street Fighter)
 
+![alt](https://github.com/tabrizimo/G10_SuperSkuleFighter/blob/master/doc/image.png "SSF")
+
 Street Fighter II
 
 ![alt]( http://www.nintendoworldreport.com/media/27386/4/3.jpg "SF" )
 
-Super Skule Fighter
 
-![alt](https://github.com/tabrizimo/G10_SuperSkuleFighter/blob/master/doc/image.png "SSF")
+
+
 
 #### Features:
 * Live HDMI video feed from camera as input (720p, 60FPS)
