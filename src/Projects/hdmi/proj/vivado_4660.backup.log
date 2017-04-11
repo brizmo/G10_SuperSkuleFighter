@@ -1,0 +1,518 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 11:35:06 2017
+# Process ID: 4660
+# Current directory: W:/pre_done/NexysVideo-master/Projects/hdmi/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2496 W:\pre_done\NexysVideo-master\Projects\hdmi\proj\hdmi.xpr
+# Log file: W:/pre_done/NexysVideo-master/Projects/hdmi/proj/vivado.log
+# Journal file: W:/pre_done/NexysVideo-master/Projects/hdmi/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:48 ; elapsed = 00:00:47 . Memory (MB): peak = 1461.988 ; gain = 823.918
+update_compile_order -fileset sources_1
+open_bd_design {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd}
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.5 - dvi2rgb_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- digilentinc.com:ip:rgb2dvi:1.2 - rgb2dvi_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_video
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:9.6 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_pxl
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_1
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_c
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - tready_concat
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tuser_slice_v
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_3
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_4
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_5
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_0
+Adding cell -- utoronto.ca:user:color_threshold:1.0 - color_threshold_0
+Adding cell -- utoronto.ca:module_ref:bypass:1.0 - bypass_0
+Adding cell -- user.org:user:Collision_Detection_Slave:1.0 - Collision_Detection_Slave_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding cell -- xilinx.com:module_ref:BGR:1.0 - BGR_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <hdmi> from BD file <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1479.387 ; gain = 17.398
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210276689304B
+set_property PROGRAM.FILE {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 5 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1661.711 ; gain = 102.043
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_1"}]]
+WARNING: Simulation object hdmi_i/axis_broadcaster_0_M00_AXIS_TREADY was not found in the design.
+WARNING: Simulation object hdmi_i/axis_broadcaster_0_M00_AXIS_TDATA was not found in the design.
+WARNING: Simulation object hdmi_i/n_0_5 was not found in the design.
+WARNING: Simulation object hdmi_i/n_0_4 was not found in the design.
+WARNING: Simulation object hdmi_i/n_0_3 was not found in the design.
+WARNING: Simulation object hdmi_i/axis_broadcaster_0_M00_AXIS_TVALID was not found in the design.
+WARNING: Simulation object hdmi_i/axis_broadcaster_0_M00_AXIS_TLAST was not found in the design.
+WARNING: Simulation object hdmi_i/axis_broadcaster_0_M00_AXIS_TUSER was not found in the design.
+WARNING: Simulation object hdmi_i/n_0_7 was not found in the design.
+WARNING: Simulation object hdmi_i/n_0_9 was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_3"}]]
+WARNING: Simulation object hdmi_i/bypass_0_s00_axis_tready was not found in the design.
+WARNING: Simulation object hdmi_i/tdata_slice_v_Dout was not found in the design.
+WARNING: Simulation object hdmi_i/tlast_slice_v_Dout was not found in the design.
+WARNING: Simulation object hdmi_i/tuser_slice_v_Dout was not found in the design.
+WARNING: Simulation object hdmi_i/tvalid_slice_v_Dout was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_4"}]]
+WARNING: Simulation object hdmi_i/bypass_0_m00_axis_tdata was not found in the design.
+WARNING: Simulation object hdmi_i/v_axi4s_vid_out_0_s_axis_video_tready was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_m00_axis_tlast was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_m00_axis_tuser was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_m00_axis_tvalid was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_out_data_sel was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_out_mod_data was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_out_row_counter was not found in the design.
+WARNING: Simulation object hdmi_i/bypass_0_out_write_pointer was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_5"}]]
+set_property PROBES.FILE {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1661.711 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 5 ILA core(s).
+file copy -force W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.sysdef W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+
+launch_sdk -workspace W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd}
+ipx::edit_ip_in_project -upgrade true -name Collision_Detection_Slave_v1_0_v1_0_project -directory W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.tmp/Collision_Detection_Slave_v1_0_v1_0_project w:/pre_done/NexysVideo-master/collision_detection/ip_repo/Collision_Detection_Slave_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'w:/pre_done/nexysvideo-master/projects/hdmi/proj/hdmi.tmp/collision_detection_slave_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1661.711 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1661.711 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property core_revision 36 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project hdmi
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+update_ip_catalog: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1851.777 ; gain = 184.066
+report_ip_status -name ip_status
+current_project Collision_Detection_Slave_v1_0_v1_0_project
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::xilinx.com_bd_rule_bram_cntlr::can_apply_rule Line 8
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
+ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+ERROR: [BD 41-1273] Error running can_apply_rule TCL procedure: ERROR: [Common 17-39] 'get_bd_intf_pins' failed due to earlier errors.
+    ::bd::board_utils::is_intf_pin Line 3
+current_project hdmi
+export_ip_user_files -of_objects [get_ips  hdmi_Collision_Detection_Slave_0_0] -no_script -reset -quiet
+upgrade_ip -vlnv user.org:user:Collision_Detection_Slave:1.0 [get_ips  hdmi_Collision_Detection_Slave_0_0] -log ip_upgrade.log
+Upgrading 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd'
+delete_fileset: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1956.242 ; gain = 84.957
+delete_ip_run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1956.242 ; gain = 95.789
+INFO: [IP_Flow 19-3422] Upgraded hdmi_Collision_Detection_Slave_0_0 (Collision_Detection_Slave_v1.0 1.0) from revision 35 to revision 36
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1956.242 ; gain = 95.789
+report_ip_status -name ip_status 
+startgroup
+set_property -dict [list CONFIG.stop_blue_x {1180}] [get_bd_cells bypass_0]
+endgroup
+save_bd_design
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+update_module_reference hdmi_bypass_0_0
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+Upgrading 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd'
+delete_fileset: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1958.113 ; gain = 0.000
+delete_ip_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1958.113 ; gain = 0.000
+WARNING: [IP_Flow 19-4316] Parameter 'single_length' is no longer present on the upgraded IP 'hdmi_bypass_0_0', and cannot be set to '10'
+WARNING: [IP_Flow 19-3501] Upgraded hdmi_bypass_0_0 from bypass_v1_0 1.0 to bypass_v1_0 1.0, with warnings. Please review the message log.
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'single_length'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'module reference hdmi_bypass_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'module reference hdmi_bypass_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+upgrade_ip: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1958.113 ; gain = 0.000
+update_module_reference: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1958.113 ; gain = 0.000
+report_ip_status -name ip_status 
+create_project managed_ip_project W:/pre_done/NexysVideo-master/color_threshold/managed_ip_project -part xc7a200tsbg484-1 -ip
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+set_property board_part digilentinc.com:nexys_video:part0:1.1 [current_project]
+set_property simulator_language Verilog [current_project]
+set_property target_simulator XSim [current_project]
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+create_peripheral utoronto.ca user color_threshold 1.0 -dir W:/pre_done/NexysVideo-master/color_threshold/ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core utoronto.ca:user:color_threshold:1.0]
+set_property VALUE 8 [ipx::get_bus_parameters WIZ_NUM_REG -of_objects [ipx::get_bus_interfaces S00_AXI -of_objects [ipx::find_open_core utoronto.ca:user:color_threshold:1.0]]]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core utoronto.ca:user:color_threshold:1.0]
+write_peripheral [ipx::find_open_core utoronto.ca:user:color_threshold:1.0]
+set_property  ip_repo_paths  W:/pre_done/NexysVideo-master/color_threshold/ip_repo/color_threshold_1.0 [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold/ip_repo/color_threshold_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_color_threshold_v1_0 -directory W:/pre_done/NexysVideo-master/color_threshold/ip_repo w:/pre_done/NexysVideo-master/color_threshold/ip_repo/color_threshold_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold/ip_repo/color_threshold_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1967.633 ; gain = 1.184
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'PORT_VECTOR_LEFT.initial_health' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'PORT_VECTOR_LEFT.single_length' 
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+close_project
+current_project hdmi
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+report_ip_status -name ip_status 
+export_ip_user_files -of_objects [get_ips  hdmi_color_threshold_0_0] -no_script -reset -quiet
+upgrade_ip -vlnv utoronto.ca:user:color_threshold:1.0 [get_ips  hdmi_color_threshold_0_0] -log ip_upgrade.log
+Upgrading 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd'
+delete_fileset: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2103.363 ; gain = 0.000
+delete_ip_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2103.363 ; gain = 0.000
+INFO: [IP_Flow 19-3422] Upgraded hdmi_color_threshold_0_0 (color_threshold_v1.0 1.0) from revision 3 to revision 2
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'initial_health'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'single_length'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'IP hdmi_color_threshold_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'IP hdmi_color_threshold_0_0' has identified issues that may require user intervention. Please review the upgrade log 'w:/pre_done/NexysVideo-master/Projects/hdmi/proj/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2103.363 ; gain = 0.000
+report_ip_status -name ip_status 
+delete_bd_objs [get_bd_nets xlconstant_1_dout]
+delete_bd_objs [get_bd_cells xlconstant_1]
+delete_bd_objs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2103.363 ; gain = 0.000
+report_ip_status -name ip_status 
+startgroup
+connect_bd_net [get_bd_pins color_threshold_0/initial_health] [get_bd_pins Collision_Detection_Slave_0/initial_health]
+endgroup
+startgroup
+connect_bd_net [get_bd_pins color_threshold_0/single_length] [get_bd_pins bypass_0/single_length]
+endgroup
+update_compile_order -fileset sources_1
+update_module_reference hdmi_bypass_0_0
+ERROR: [filemgmt 56-189] Failed to resolve reference. Nothing was found in the project to match the name 'bypass'.
+ERROR: [Common 17-39] 'update_module_reference' failed due to earlier errors.
+report_ip_status -name ip_status 
+save_bd_design
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+update_compile_order -fileset sources_1
+update_module_reference hdmi_bypass_0_0
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+Upgrading 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd'
+INFO: [IP_Flow 19-1972] Upgraded hdmi_bypass_0_0 from bypass_v1_0 1.0 to bypass_v1_0 1.0
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+startgroup
+set_property -dict [list CONFIG.start_y {32} CONFIG.end_y {95}] [get_bd_cells bypass_0]
+endgroup
+update_module_reference hdmi_bypass_0_0
+INFO: [IP_Flow 19-2228] Inferred bus interface 'm00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-2228] Inferred bus interface 's00_axis' of definition 'xilinx.com:interface:axis:1.0'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'axis_aresetn' as interface 'axis_aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'axis_aclk' as interface 'axis_aclk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'm00_axis:s00_axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'axis_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'axis_aresetn'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/pre_done/NexysVideo-master/color_threshold'.
+Upgrading 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd'
+INFO: [IP_Flow 19-1972] Upgraded hdmi_bypass_0_0 from bypass_v1_0 1.0 to bypass_v1_0 1.0
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.Coe_File {W:/pre_done/NexysVideo-master/n_BG.coe}] [get_bd_cells blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file 'w:/pre_done/NexysVideo-master/n_BG.coe' provided. It will be converted relative to IP Instance files '../../../../../../../../../n_BG.coe'
+endgroup
+validate_bd_design
+delete_bd_objs: Time (s): cpu = 00:00:51 ; elapsed = 00:01:02 . Memory (MB): peak = 2223.199 ; gain = 0.000
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.AsyncRst' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.SyncRst' 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+CRITICAL WARNING: [BD 41-1343] Reset pin /axis_broadcaster_0/aresetn (associated clock /axis_broadcaster_0/aclk) is connected to reset source /rst_mig_7series_0_100M/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /Collision_Detection_Slave_0/s00_axis_aresetn (associated clock /Collision_Detection_Slave_0/s00_axis_aclk) is connected to asynchronous reset source /s00_axis_aresetn.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /bypass_0/axis_aresetn (associated clock /bypass_0/axis_aclk) is connected to asynchronous reset source /s00_axis_aresetn.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+INFO: [xilinx.com:ip:axi_vdma:6.2-15] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.2-155] /axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:9.6-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0x9FFFFFFF.
+INFO: [xilinx.com:ip:microblaze:9.6-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0x9FFFFFFF.
+WARNING: [BD 41-1271] The connection to the pin: /v_axi4s_vid_out_0/s_axis_video_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: axis_broadcaster_0_M00_AXIS 
+validate_bd_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:22 . Memory (MB): peak = 2343.395 ; gain = 120.195
+make_wrapper -files [get_files W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd] -top
+INFO: [BD 41-1662] The design 'hdmi.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /v_axi4s_vid_out_0/s_axis_video_tready has been overridden by the user. This pin will not be connected as a part of the interface connection: axis_broadcaster_0_M00_AXIS 
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Collision_Detection_Slave_0/initial_health'(5) to net 'color_threshold_0_initial_health'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/bypass_0/single_length'(6) to net 'color_threshold_0_single_length'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi.vhd
+VHDL Output written to : W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi_wrapper.vhd
+Wrote  : <W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+make_wrapper: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2382.605 ; gain = 33.203
+current_project Collision_Detection_Slave_v1_0_v1_0_project
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 13:42:19 2017...

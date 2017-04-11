@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr 11 14:59:13 2017
+# Process ID: 6524
+# Current directory: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5080 C:\G10_SuperSkuleFighter\src\Projects\hdmi\proj\hdmi.xpr
+# Log file: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/vivado.log
+# Journal file: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/G10_SuperSkuleFighter/src/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/G10_SuperSkuleFighter/src/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/G10_SuperSkuleFighter/src/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/G10_SuperSkuleFighter/src/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/G10_SuperSkuleFighter/src/color_threshold'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:01:30 ; elapsed = 00:00:58 . Memory (MB): peak = 1193.398 ; gain = 544.770
+update_compile_order -fileset sources_1
+reset_run impl_1 -noclean_dir 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 11 15:35:14 2017] Launched impl_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 11 15:41:09 2017] Launched synth_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/synth_1/runme.log
+[Tue Apr 11 15:41:09 2017] Launched impl_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+reset_run synth_1
+open_bd_design {C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd}
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.5 - dvi2rgb_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- digilentinc.com:ip:rgb2dvi:1.2 - rgb2dvi_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_video
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:9.6 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_pxl
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_1
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_c
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - tready_concat
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tuser_slice_v
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding cell -- utoronto.ca:module_ref:BGR:1.0 - Background_replacement
+Adding cell -- utoronto.ca:user:color_threshold:1.0 - color_threshold_0
+Adding cell -- user.org:user:Collision_Detection_Slave:1.0 - Collision_Detection_Slave_0
+Adding cell -- utoronto.ca:module_ref:bypass:1.0 - Video_Overlay
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <hdmi> from BD file <C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1242.750 ; gain = 21.820
+make_wrapper -files [get_files C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd] -top
+close_bd_design [get_bd_designs hdmi]
+launch_runs synth_1 -jobs 4
+[Tue Apr 11 15:42:50 2017] Launched synth_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Apr 11 15:45:22 2017] Launched impl_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 11 16:22:35 2017] Launched impl_1...
+Run output will be captured here: C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+file copy -force C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.sysdef C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+
+launch_sdk -workspace C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk -hwspec C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk -hwspec C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 16:44:35 2017...

@@ -1,0 +1,209 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Feb 23 12:36:24 2017
+# Process ID: 2824
+# Current directory: W:/ECE532/collision_detection/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1980 W:\ECE532\collision_detection\managed_ip_project\managed_ip_project.xpr
+# Log file: W:/ECE532/collision_detection/managed_ip_project/vivado.log
+# Journal file: W:/ECE532/collision_detection/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/ECE532/collision_detection/managed_ip_project/managed_ip_project.xpr
+INFO: [Project 1-313] Project file moved from '/nfs/ug/homes-2/c/chungm13/collision_detection/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/ECE532/collision_detection/ip_repo/Collision_Detection_Slave_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 799.527 ; gain = 126.965
+create_project testbench_demo W:/ECE532/testbench_demo/testbench_demo -part xc7a200tsbg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+set_property board_part digilentinc.com:nexys_video:part0:1.1 [current_project]
+set_property simulator_language Verilog [current_project]
+set_property  ip_repo_paths  W:/ECE532/collision_detection/ip_repo [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/ECE532/collision_detection/ip_repo'.
+create_bd_design "design_1"
+Wrote  : <W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd> 
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv user.org:user:Collision_Detection_Slave:1.0 Collision_Detection_Slave_0
+endgroup
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 S00_AXIS
+set_property -dict [list CONFIG.TDATA_NUM_BYTES [get_property CONFIG.TDATA_NUM_BYTES [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]] CONFIG.HAS_TSTRB [get_property CONFIG.HAS_TSTRB [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]] CONFIG.HAS_TLAST [get_property CONFIG.HAS_TLAST [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]]] [get_bd_intf_ports S00_AXIS]
+connect_bd_intf_net [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS] [get_bd_intf_ports S00_AXIS]
+endgroup
+startgroup
+create_bd_port -dir I -type clk s00_axis_aclk
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_aclk] [get_bd_ports s00_axis_aclk]
+endgroup
+startgroup
+create_bd_port -dir I -type rst s00_axis_aresetn
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_aresetn] [get_bd_ports s00_axis_aresetn]
+endgroup
+startgroup
+create_bd_port -dir O red_player_hit
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/red_player_hit] [get_bd_ports red_player_hit]
+endgroup
+startgroup
+create_bd_port -dir O blue_player_hit
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/blue_player_hit] [get_bd_ports blue_player_hit]
+endgroup
+startgroup
+create_bd_port -dir I s00_axis_tlast_1
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_tlast] [get_bd_ports s00_axis_tlast_1]
+WARNING: [BD 41-1306] The connection to interface pin /Collision_Detection_Slave_0/s00_axis_tlast is being overridden by the user. This pin will not be connected as a part of interface connection S00_AXIS
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_tlast] [get_bd_ports s00_axis_tlast_1]'
+INFO: [Common 17-17] undo 'create_bd_port -dir I s00_axis_tlast_1'
+INFO: [Common 17-17] undo 'startgroup'
+save_bd_design
+Wrote  : <W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd> 
+validate_bd_design
+make_wrapper -files [get_files W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd> 
+add_files -norecurse W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+generate_target Simulation [get_files W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Collision_Detection_Slave_0 .
+Exporting to file W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1.hwdef
+export_ip_user_files -of_objects [get_files W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd] -no_script -force -quiet
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'design_1_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'W:/ECE532/testbench_demo/testbench_demo/testbench_demo.sim/sim_1/behav'
+"xvlog -m64 --relax -prj design_1_wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.ip_user_files/bd/design_1/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision_Detection_Slave_v1_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.ip_user_files/bd/design_1/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Collision_Detection_Slave_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.ip_user_files/bd/design_1/ip/design_1_Collision_Detection_Slave_0_0/sim/design_1_Collision_Detection_Slave_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Collision_Detection_Slave_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.ip_user_files/bd/design_1/hdl/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/ECE532/testbench_demo/testbench_demo/testbench_demo.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'W:/ECE532/testbench_demo/testbench_demo/testbench_demo.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto ed0ef75625ac4bbfba71f7c7234a41c7 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Collision_Detection_Slave_v1_0_S...
+Compiling module xil_defaultlib.Collision_Detection_Slave_v1_0
+Compiling module xil_defaultlib.design_1_Collision_Detection_Sla...
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'W:/ECE532/testbench_demo/testbench_demo/testbench_demo.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "design_1_wrapper_behav -key {Behavioral:sim_1:Functional:design_1_wrapper} -tclbatch {design_1_wrapper.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source design_1_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'design_1_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.578 ; gain = 13.145
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_bd_design {W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_intf_nets S00_AXIS_1] [get_bd_nets Collision_Detection_Slave_0_red_player_hit] [get_bd_nets Collision_Detection_Slave_0_blue_player_hit] [get_bd_nets s00_axis_aclk_1] [get_bd_nets s00_axis_aresetn_1] [get_bd_cells Collision_Detection_Slave_0]
+startgroup
+delete_bd_objs [get_bd_intf_ports S00_AXIS]
+delete_bd_objs [get_bd_ports s00_axis_aresetn] [get_bd_ports s00_axis_aclk] [get_bd_ports red_player_hit] [get_bd_ports blue_player_hit]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv user.org:user:Collision_Detection_Slave:1.0 Collision_Detection_Slave_0
+endgroup
+startgroup
+create_bd_intf_port -mode Slave -vlnv xilinx.com:interface:axis_rtl:1.0 S00_AXIS
+set_property -dict [list CONFIG.TDATA_NUM_BYTES [get_property CONFIG.TDATA_NUM_BYTES [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]] CONFIG.HAS_TSTRB [get_property CONFIG.HAS_TSTRB [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]] CONFIG.HAS_TLAST [get_property CONFIG.HAS_TLAST [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS]]] [get_bd_intf_ports S00_AXIS]
+connect_bd_intf_net [get_bd_intf_pins Collision_Detection_Slave_0/S00_AXIS] [get_bd_intf_ports S00_AXIS]
+endgroup
+startgroup
+create_bd_port -dir I -type clk s00_axis_aclk
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_aclk] [get_bd_ports s00_axis_aclk]
+endgroup
+startgroup
+create_bd_port -dir I -type rst s00_axis_aresetn
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/s00_axis_aresetn] [get_bd_ports s00_axis_aresetn]
+endgroup
+startgroup
+create_bd_port -dir O red_player_hit
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/red_player_hit] [get_bd_ports red_player_hit]
+endgroup
+startgroup
+create_bd_port -dir O blue_player_hit
+connect_bd_net [get_bd_pins /Collision_Detection_Slave_0/blue_player_hit] [get_bd_ports blue_player_hit]
+endgroup
+validate_bd_design
+make_wrapper -files [get_files W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1.v
+Verilog Output written to : W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Wrote  : <W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd> 
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse W:/ECE532/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.srcs/sim_1/new/test.v
+update_compile_order -fileset sim_1
+set_property top test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+open_bd_design {W:/ECE532/testbench_demo/testbench_demo/testbench_demo.srcs/sources_1/bd/design_1/design_1.bd}
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/ECE532/collision_detection/ip_repo'.
+report_ip_status -name ip_status
+delete_bd_objs [get_bd_intf_nets S00_AXIS_1] [get_bd_nets Collision_Detection_Slave_0_red_player_hit] [get_bd_nets Collision_Detection_Slave_0_blue_player_hit] [get_bd_nets s00_axis_aclk_1] [get_bd_nets s00_axis_aresetn_1] [get_bd_cells Collision_Detection_Slave_0]
+startgroup
+delete_bd_objs [get_bd_intf_ports S00_AXIS]
+delete_bd_objs [get_bd_ports s00_axis_aresetn] [get_bd_ports s00_axis_aclk] [get_bd_ports red_player_hit] [get_bd_ports blue_player_hit]
+endgroup
+close_project
+create_project testbench_demo W:/ECE532/testbench_demo/testbench_demo -part xc7a200tsbg484-1
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     W:/ECE532/testbench_demo/testbench_demo/testbench_demo.sim
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 14:40:16 2017...

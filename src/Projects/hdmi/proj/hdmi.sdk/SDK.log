@@ -1,0 +1,398 @@
+15:26:31 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+15:26:32 INFO  : XSDB server has started successfully.
+15:26:32 INFO  : Processing command line option -hwspec W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:30:26 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+15:30:27 INFO  : XSDB server has started successfully.
+15:32:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:32:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+15:32:43 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+15:33:09 INFO  : Processor reset is completed for microblaze_0
+15:33:10 ERROR : Port COM3 is already in use.
+15:34:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:07:12 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:07:13 INFO  : XSDB server has started successfully.
+17:07:14 INFO  : Processing command line option -hwspec W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:07:14 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+17:07:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1489097175501,  Project:1489091002759
+17:07:16 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_0' is different from W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:07:16 INFO  : Copied contents of W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_0\system.hdf.
+17:07:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:07:32 INFO  : 
+17:07:33 INFO  : Updating hardware inferred compiler options for videodemo.
+17:07:33 INFO  : Clearing existing target manager status.
+17:11:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:11:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+17:11:07 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+17:11:36 INFO  : Processor reset is completed for microblaze_0
+17:11:36 ERROR : Port COM3 is already in use.
+19:08:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:08:30 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:08:32 INFO  : XSDB server has started successfully.
+19:08:32 INFO  : Processing command line option -hwspec W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:08:32 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+19:08:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1489102252955,  Project:1489097175501
+19:08:34 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_0' is different from W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:08:34 INFO  : Copied contents of W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_0\system.hdf.
+19:08:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:08:50 INFO  : 
+19:08:51 INFO  : Updating hardware inferred compiler options for videodemo.
+19:08:51 INFO  : Clearing existing target manager status.
+19:09:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+19:09:48 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+19:09:57 INFO  : Processor reset is completed for microblaze_0
+19:32:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:10:02 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:10:03 INFO  : XSDB server has started successfully.
+21:10:03 INFO  : Processing command line option -hwspec W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:10:03 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+21:10:05 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1489111747965,  Project:1489102252955
+21:10:05 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_0' is different from W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:10:05 INFO  : Copied contents of W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_0\system.hdf.
+21:10:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:10:20 INFO  : 
+21:10:21 INFO  : Updating hardware inferred compiler options for videodemo.
+21:10:21 INFO  : Clearing existing target manager status.
+21:10:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+21:11:06 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+21:11:17 INFO  : Processor reset is completed for microblaze_0
+21:11:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:11:39 INFO  : Processor reset is completed for microblaze_0
+21:12:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:12:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:12:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+21:12:51 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+21:12:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:12:58 INFO  : Processor reset is completed for microblaze_0
+21:14:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:40:38 INFO  : Launching XSDB server: xsdb.bat -interactive W:\video_demo\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+12:40:42 INFO  : XSDB server has started successfully.
+12:40:47 INFO  : Processing command line option -hwspec W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+12:40:47 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+12:43:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+12:45:13 INFO  : FPGA configured successfully with bitstream "W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+12:45:44 INFO  : Processor reset is completed for microblaze_0
+12:45:45 ERROR : Port COM4 is already in use.
+13:02:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:18:24 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:18:28 INFO  : XSDB server has started successfully.
+17:18:33 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:18:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1488409800000,  Project:1489111747965
+17:18:38 INFO  : Project hdmi_wrapper_hw_platform_0's source hardware specification located at W:/video_demo/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:18:39 INFO  : Project hdmi_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+17:20:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+17:20:12 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+17:20:53 INFO  : Processor reset is completed for microblaze_0
+17:38:03 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:48:08 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:48:10 INFO  : XSDB server has started successfully.
+14:48:19 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:48:20 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_1.
+14:48:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1489690027248,  Project:1489612537134
+14:48:20 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_1' is different from W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:48:20 INFO  : Copied contents of W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_1\system.hdf.
+14:48:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:48:26 INFO  : Clearing existing target manager status.
+14:48:26 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:48:26 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:49:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:49:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+14:49:21 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+14:50:05 INFO  : Processor reset is completed for microblaze_0
+16:41:37 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1489696877639,  Project:1489690027248
+16:41:37 INFO  : Project hdmi_wrapper_hw_platform_1's source hardware specification located at W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:42:12 INFO  : Project hdmi_wrapper_hw_platform_1's source hardware specification location will not be monitored anymore.
+16:42:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:42:24 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+16:42:25 INFO  : XSDB server has started successfully.
+16:42:29 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+16:43:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:43:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689304B" && level==0} -index 0' command is executed.
+16:44:04 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+16:44:46 INFO  : Processor reset is completed for microblaze_0
+16:46:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:08:27 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:08:28 INFO  : XSDB server has started successfully.
+17:08:31 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:08:32 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_2.
+17:08:49 INFO  : Processor reset is completed for microblaze_0
+17:37:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:03:28 INFO  : Launching XSDB server: xsdb.bat -interactive W:\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:03:30 INFO  : XSDB server has started successfully.
+18:03:43 INFO  : Processing command line option -hwspec W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:04:04 INFO  : Processor reset is completed for microblaze_0
+19:04:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:06:12 INFO  : Launching XSDB server: xsdb.bat -interactive W:\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:06:13 INFO  : XSDB server has started successfully.
+19:06:17 INFO  : Processing command line option -hwspec W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:06:17 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+19:06:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490051124810,  Project:1490047342486
+19:06:17 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_3' is different from W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:06:17 INFO  : Copied contents of W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+19:06:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:06:23 INFO  : Clearing existing target manager status.
+19:06:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:06:24 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:06:31 INFO  : Processor reset is completed for microblaze_0
+19:12:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:19:56 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:19:58 INFO  : XSDB server has started successfully.
+13:20:09 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:20:22 INFO  : Processor reset is completed for microblaze_0
+13:24:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:24:17 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:24:18 INFO  : XSDB server has started successfully.
+13:24:22 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:24:22 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_4.
+13:24:36 INFO  : Processor reset is completed for microblaze_0
+14:21:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:29:34 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:29:35 INFO  : XSDB server has started successfully.
+14:29:39 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:29:39 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_4.
+14:29:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490207320599,  Project:1490203108245
+14:29:39 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_4' is different from W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:29:39 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_4\system.hdf.
+14:29:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:29:45 INFO  : Clearing existing target manager status.
+14:29:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:29:45 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:29:49 INFO  : Processor reset is completed for microblaze_0
+15:41:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:55:29 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+15:55:30 INFO  : XSDB server has started successfully.
+15:55:30 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:55:30 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_4.
+15:55:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490212466012,  Project:1490207320599
+15:55:34 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_4' is different from W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:55:34 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_4\system.hdf.
+15:55:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:55:38 INFO  : Clearing existing target manager status.
+15:55:39 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:55:39 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:55:45 INFO  : Processor reset is completed for microblaze_0
+17:30:49 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490218207846,  Project:1490212466012
+17:30:49 INFO  : Project hdmi_wrapper_hw_platform_4's source hardware specification located at W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:31:04 INFO  : Project hdmi_wrapper_hw_platform_4's source hardware specification location will not be monitored anymore.
+17:31:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:31:19 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:31:21 INFO  : XSDB server has started successfully.
+17:31:22 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:31:29 INFO  : Processor reset is completed for microblaze_0
+17:31:39 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:31:42 INFO  : Processor reset is completed for microblaze_0
+17:31:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:32:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:32:05 INFO  : Processor reset is completed for microblaze_0
+17:32:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:32:57 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:32:58 INFO  : XSDB server has started successfully.
+17:33:02 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:33:02 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_5.
+17:33:12 INFO  : Processor reset is completed for microblaze_0
+17:34:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:49:25 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+15:49:27 INFO  : XSDB server has started successfully.
+15:49:38 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:49:38 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_5.
+15:49:38 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490298361674,  Project:1490218207846
+15:49:38 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_5' is different from W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:49:42 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_5\system.hdf.
+15:49:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:49:46 INFO  : Clearing existing target manager status.
+15:49:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:49:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:49:47 INFO  : Processor reset is completed for microblaze_0
+16:53:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490302185219,  Project:1490298361674
+16:53:02 INFO  : Project hdmi_wrapper_hw_platform_5's source hardware specification located at W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:53:34 INFO  : Project hdmi_wrapper_hw_platform_5's source hardware specification location will not be monitored anymore.
+16:53:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:54:11 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+16:54:12 INFO  : XSDB server has started successfully.
+16:54:16 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+16:54:49 INFO  : Processor reset is completed for microblaze_0
+17:34:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:04:48 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:04:49 INFO  : XSDB server has started successfully.
+19:04:53 INFO  : Processing command line option -hwspec W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:04:53 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_6.
+19:04:53 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490310202323,  Project:1490302185219
+19:04:53 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_6' is different from W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:04:53 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_6\system.hdf.
+19:04:59 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:05:00 INFO  : Clearing existing target manager status.
+19:05:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:05:00 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:05:08 INFO  : Processor reset is completed for microblaze_0
+19:09:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:04:46 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\health_bar_plus_punch\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:04:48 INFO  : XSDB server has started successfully.
+21:05:00 INFO  : Processing command line option -hwspec W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:05:07 INFO  : Processor reset is completed for microblaze_0
+21:05:07 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490302185219,  Project:1490051124810
+21:05:07 INFO  : Project hdmi_wrapper_hw_platform_3's source hardware specification located at W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:05:13 INFO  : Copied contents of W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+21:05:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:05:22 INFO  : Clearing existing target manager status.
+21:05:22 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:05:22 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:05:22 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490218207846,  Project:1490310202323
+21:05:22 INFO  : Project hdmi_wrapper_hw_platform_6's source hardware specification located at W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:05:25 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_6\system.hdf.
+21:05:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:05:28 INFO  : Clearing existing target manager status.
+21:05:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:05:28 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:13:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:03:06 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\health_bar_plus_punch\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+11:03:09 INFO  : XSDB server has started successfully.
+11:03:33 INFO  : Processing command line option -hwspec W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:03:33 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_7.
+11:03:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490367711753,  Project:1490317383239
+11:03:33 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_7' is different from W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:03:33 INFO  : Copied contents of W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_7\system.hdf.
+11:03:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:03:45 INFO  : Clearing existing target manager status.
+11:03:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:03:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+11:04:17 INFO  : Processor reset is completed for microblaze_0
+11:07:23 INFO  : Processor reset is completed for microblaze_0
+11:07:34 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:08:12 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\health_bar_plus_punch\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+11:08:13 INFO  : XSDB server has started successfully.
+11:08:17 INFO  : Processing command line option -hwspec W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:08:17 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_7.
+11:45:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490370235261,  Project:1490367711753
+11:45:34 INFO  : Project hdmi_wrapper_hw_platform_7's source hardware specification located at W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:45:40 INFO  : Project hdmi_wrapper_hw_platform_7's source hardware specification location will not be monitored anymore.
+11:46:02 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\health_bar_plus_punch\feed_through\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+11:46:03 INFO  : XSDB server has started successfully.
+11:46:09 INFO  : Processing command line option -hwspec W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:46:51 INFO  : Processor reset is completed for microblaze_0
+11:52:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:04:40 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\0327_colors\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+12:04:42 INFO  : XSDB server has started successfully.
+12:04:52 INFO  : Processing command line option -hwspec W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+12:05:05 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490310202323,  Project:1490218207846
+12:05:05 INFO  : Project hdmi_wrapper_hw_platform_6's source hardware specification located at W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:05:15 INFO  : Copied contents of W:/ECE532/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_6\system.hdf.
+12:05:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:05:19 INFO  : Clearing existing target manager status.
+12:05:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:05:20 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:05:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490310202323,  Project:1490370235261
+12:05:20 INFO  : Project hdmi_wrapper_hw_platform_8's source hardware specification located at W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:05:25 INFO  : Copied contents of W:/ECE532/health_bar_plus_punch/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_8\system.hdf.
+12:05:29 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:05:29 INFO  : Clearing existing target manager status.
+12:05:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:05:29 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:05:42 INFO  : Processor reset is completed for microblaze_0
+12:12:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:46:54 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\0327_colors\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:46:55 INFO  : XSDB server has started successfully.
+14:46:59 INFO  : Processing command line option -hwspec W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:46:59 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_9.
+14:46:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490639514357,  Project:1490630034622
+14:46:59 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_9' is different from W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:46:59 INFO  : Copied contents of W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_9\system.hdf.
+14:47:06 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:47:10 INFO  : Clearing existing target manager status.
+14:47:11 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:47:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:57:07 INFO  : Processor reset is completed for microblaze_0
+14:59:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:00:01 INFO  : Processor reset is completed for microblaze_0
+15:01:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:01:32 INFO  : Processor reset is completed for microblaze_0
+15:02:37 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:02:39 INFO  : Processor reset is completed for microblaze_0
+15:04:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:04:07 INFO  : Processor reset is completed for microblaze_0
+15:06:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:06:14 INFO  : Processor reset is completed for microblaze_0
+15:07:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:07:04 INFO  : Processor reset is completed for microblaze_0
+15:09:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:09:24 INFO  : Processor reset is completed for microblaze_0
+15:12:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:12:54 INFO  : Processor reset is completed for microblaze_0
+15:13:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:46:52 INFO  : Launching XSDB server: xsdb.bat -interactive W:\327_2\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:46:54 INFO  : XSDB server has started successfully.
+19:46:55 INFO  : Processing command line option -hwspec W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:47:03 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490051124810,  Project:1490302185219
+19:47:03 INFO  : Project hdmi_wrapper_hw_platform_3's source hardware specification located at W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:47:12 INFO  : Copied contents of W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+19:47:20 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:47:21 INFO  : Clearing existing target manager status.
+19:47:21 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:47:21 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:47:44 INFO  : Processor reset is completed for microblaze_0
+20:41:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:21:03 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Mohammad\Desktop\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+11:21:12 INFO  : XSDB server has started successfully.
+11:21:13 INFO  : Processing command line option -hwspec C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:22:58 INFO  : Processor reset is completed for microblaze_0
+11:25:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:40:54 INFO  : Launching XSDB server: xsdb.bat -interactive W:\pre_done\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+11:40:55 INFO  : XSDB server has started successfully.
+11:41:03 INFO  : Processing command line option -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+11:41:45 INFO  : Processor reset is completed for microblaze_0
+13:42:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:33:54 INFO  : Launching XSDB server: xsdb.bat -interactive W:\pre_done\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:33:55 INFO  : XSDB server has started successfully.
+14:33:55 INFO  : Processing command line option -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:33:55 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_12.
+14:34:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490812348391,  Project:1490788360157
+14:34:00 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_12' is different from W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:34:00 INFO  : Copied contents of W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_12\system.hdf.
+14:34:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:34:09 INFO  : Clearing existing target manager status.
+14:34:10 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:34:10 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:35:17 INFO  : Processor reset is completed for microblaze_0
+15:07:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:44:25 INFO  : Launching XSDB server: xsdb.bat -interactive W:\pre_done\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+15:44:26 INFO  : XSDB server has started successfully.
+15:44:26 INFO  : Processing command line option -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:44:26 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_12.
+15:44:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490816621679,  Project:1490812348391
+15:44:31 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_12' is different from W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+15:44:31 INFO  : Copied contents of W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_12\system.hdf.
+15:44:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:44:40 INFO  : Clearing existing target manager status.
+15:44:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:44:40 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:45:20 INFO  : Processor reset is completed for microblaze_0
+15:47:53 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:32:08 INFO  : Launching XSDB server: xsdb.bat -interactive W:\pre_done\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+16:32:09 INFO  : XSDB server has started successfully.
+16:32:10 INFO  : Processing command line option -hwspec W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+16:32:10 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_12.
+16:32:14 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490819411482,  Project:1490816621679
+16:32:14 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_12' is different from W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+16:32:15 INFO  : Copied contents of W:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_12\system.hdf.
+16:32:19 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:32:24 INFO  : Clearing existing target manager status.
+16:32:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:32:24 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:32:34 INFO  : Processor reset is completed for microblaze_0
+16:36:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:28:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\G10_SuperSkuleFighter\src\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+16:28:32 INFO  : XSDB server has started successfully.
+16:28:34 INFO  : Processing command line option -hwspec C:/G10_SuperSkuleFighter/src/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.

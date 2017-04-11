@@ -1,0 +1,251 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr 11 13:15:30 2017
+# Process ID: 7912
+# Current directory: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7716 C:\Users\Mohammad\Desktop\ECE532\src\Projects\hdmi\proj\hdmi.xpr
+# Log file: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/vivado.log
+# Journal file: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.xpr
+INFO: [Project 1-313] Project file moved from 'W:/pre_done/NexysVideo-master/Projects/hdmi/proj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/color_threshold'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:01:51 ; elapsed = 00:01:17 . Memory (MB): peak = 1449.711 ; gain = 796.191
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd}
+Adding cell -- digilentinc.com:ip:axi_dynclk:1.0 - axi_dynclk_0
+Adding cell -- digilentinc.com:ip:dvi2rgb:1.5 - dvi2rgb_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- digilentinc.com:ip:rgb2dvi:1.2 - rgb2dvi_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_video
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding cell -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:9.6 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_pxl
+Adding cell -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding cell -- xilinx.com:ip:v_tc:6.1 - v_tc_1
+Adding cell -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding cell -- xilinx.com:ip:axis_broadcaster:1.1 - axis_broadcaster_0
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_c
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_c
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - tready_concat
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tdata_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tlast_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tvalid_slice_v
+Adding cell -- xilinx.com:ip:xlslice:1.0 - tuser_slice_v
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_3
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_2
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_3
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_4
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_5
+Adding cell -- xilinx.com:ip:ila:6.1 - ila_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf_0
+Adding cell -- utoronto.ca:module_ref:BGR:1.0 - Background_replacement
+Adding cell -- utoronto.ca:user:color_threshold:1.0 - color_threshold_0
+Adding cell -- user.org:user:Collision_Detection_Slave:1.0 - Collision_Detection_Slave_0
+Adding cell -- utoronto.ca:module_ref:bypass:1.0 - Video_Overlay
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - m00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s03_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s02_regslice
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s01_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - s00_regslice
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_register_slice:2.1 - auto_rs_w
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <hdmi> from BD file <C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd>
+open_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1449.711 ; gain = 0.000
+delete_bd_objs [get_bd_cells ila_3]
+delete_bd_objs: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 1550.961 ; gain = 80.809
+delete_bd_objs [get_bd_cells ila_0]
+delete_bd_objs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1556.059 ; gain = 5.098
+delete_bd_objs [get_bd_cells ila_4]
+delete_bd_objs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1556.059 ; gain = 0.000
+delete_bd_objs [get_bd_cells ila_5]
+delete_bd_objs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1556.059 ; gain = 0.000
+delete_bd_objs [get_bd_intf_nets axis_broadcaster_0_M00_AXIS] [get_bd_cells ila_1]
+delete_bd_objs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1556.059 ; gain = 0.000
+regenerate_bd_layout
+save_bd_design
+Wrote  : <C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+validate_bd_design
+delete_bd_objs: Time (s): cpu = 00:01:20 ; elapsed = 00:01:09 . Memory (MB): peak = 1568.039 ; gain = 11.980
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.AsyncRst' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.SyncRst' 
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(128) on '/axi_vdma_0' with propagated value(32). Command ignored
+CRITICAL WARNING: [BD 41-1343] Reset pin /axis_broadcaster_0/aresetn (associated clock /axis_broadcaster_0/aclk) is connected to reset source /rst_mig_7series_0_100M/peripheral_aresetn (synchronous to clock source /mig_7series_0/ui_clk).
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /Collision_Detection_Slave_0/s00_axis_aresetn (associated clock /Collision_Detection_Slave_0/s00_axis_aclk) is connected to asynchronous reset source /s00_axis_aresetn.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+CRITICAL WARNING: [BD 41-1348] Reset pin /Video_Overlay/axis_aresetn (associated clock /Video_Overlay/axis_aclk) is connected to asynchronous reset source /s00_axis_aresetn.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /axi_dynclk_0/PXL_CLK_O.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:microblaze:9.6-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x80000000 and high address C_DCACHE_HIGHADDR to 0x9FFFFFFF.
+INFO: [xilinx.com:ip:microblaze:9.6-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x80000000 and high address C_ICACHE_HIGHADDR to 0x9FFFFFFF.
+INFO: [xilinx.com:ip:axi_vdma:6.2-15] /axi_vdma_0 
+                    All clocks connected to AXI VDMA are not identical, therefore configuring AXI-VDMA in ASYNC mode.
+WARNING: [xilinx.com:ip:axi_vdma:6.2-155] /axi_vdma_0 
+                    To get the better performance, ensure AXI Memory Map clock frequency is greater than equal to AXI Streaming clock frequency.
+validate_bd_design: Time (s): cpu = 00:02:09 ; elapsed = 00:01:57 . Memory (MB): peak = 1821.805 ; gain = 265.746
+make_wrapper -files [get_files C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd] -top
+INFO: [BD 41-1662] The design 'hdmi.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Collision_Detection_Slave_0/initial_health'(5) to net 'color_threshold_0_initial_health'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Video_Overlay/single_length'(6) to net 'color_threshold_0_single_length'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi.vhd
+VHDL Output written to : C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi_wrapper.vhd
+Wrote  : <C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+make_wrapper: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1873.633 ; gain = 3.063
+reset_run synth_1
+reset_run hdmi_mig_7series_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'hdmi.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Collision_Detection_Slave_0/initial_health'(5) to net 'color_threshold_0_initial_health'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/Video_Overlay/single_length'(6) to net 'color_threshold_0_single_length'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi.vhd
+VHDL Output written to : C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi_wrapper.vhd
+Wrote  : <C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdmi.bd> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dynclk_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_video .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_vdma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block dvi2rgb_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-20:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/arty-z7-20/A.0/board.xml as part xc7z020clg400-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zedboard:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zedboard/1.3/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:zybo:part0:1.0 available at C:/Xilinx/Vivado/2016.2/data/boards/board_files/zybo/B.3/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rgb2dvi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_pxl .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_axi4s_vid_out_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_tc_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block v_vid_in_axi4s_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_broadcaster_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Collision_Detection_Slave_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tdata_slice_c .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tvalid_slice_c .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tlast_slice_c .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tready_concat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tdata_slice_v .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tlast_slice_v .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tvalid_slice_v .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block tuser_slice_v .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Video_Overlay .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block color_threshold_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Background_replacement .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/s00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/s01_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/s02_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/s03_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/m00_regslice .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_rs_w .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_rs_w .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_rs_w .
+Exporting to file C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hw_handoff/hdmi.hwh
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.AsyncRst' 
+WARNING: [IP_Flow 19-3331] Invalid parameters found in dependency constraints of 'BUSIF_ENABLEMENT.SyncRst' 
+Generated Block Design Tcl file C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hw_handoff/hdmi_bd.tcl
+Generated Hardware Definition File C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/hdl/hdmi.hwdef
+[Tue Apr 11 13:43:42 2017] Launched hdmi_mig_7series_0_0_synth_1, hdmi_s00_regslice_0_synth_1, hdmi_s01_regslice_0_synth_1, hdmi_s02_regslice_0_synth_1, hdmi_m00_regslice_0_synth_1, hdmi_s03_regslice_0_synth_1, hdmi_auto_us_0_synth_1, hdmi_auto_ds_0_synth_1, hdmi_auto_rs_w_1_synth_1, hdmi_auto_rs_w_0_synth_1, hdmi_auto_us_1_synth_1, hdmi_auto_rs_w_2_synth_1, synth_1...
+Run output will be captured here:
+hdmi_mig_7series_0_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_mig_7series_0_0_synth_1/runme.log
+hdmi_s00_regslice_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_s00_regslice_0_synth_1/runme.log
+hdmi_s01_regslice_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_s01_regslice_0_synth_1/runme.log
+hdmi_s02_regslice_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_s02_regslice_0_synth_1/runme.log
+hdmi_m00_regslice_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_m00_regslice_0_synth_1/runme.log
+hdmi_s03_regslice_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_s03_regslice_0_synth_1/runme.log
+hdmi_auto_us_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_us_0_synth_1/runme.log
+hdmi_auto_ds_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_ds_0_synth_1/runme.log
+hdmi_auto_rs_w_1_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_rs_w_1_synth_1/runme.log
+hdmi_auto_rs_w_0_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_rs_w_0_synth_1/runme.log
+hdmi_auto_us_1_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_us_1_synth_1/runme.log
+hdmi_auto_rs_w_2_synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/hdmi_auto_rs_w_2_synth_1/runme.log
+synth_1: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/synth_1/runme.log
+[Tue Apr 11 13:43:47 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:53 ; elapsed = 00:03:11 . Memory (MB): peak = 1887.668 ; gain = 14.035
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 14:32:16 2017...

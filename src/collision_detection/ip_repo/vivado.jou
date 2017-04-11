@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 14:48:57 2017
+# Process ID: 2588
+# Current directory: W:/pre_done/NexysVideo-master/collision_detection/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3028 W:\pre_done\NexysVideo-master\collision_detection\ip_repo\edit_Collision_Detection_Slave_v1_0.xpr
+# Log file: W:/pre_done/NexysVideo-master/collision_detection/ip_repo/vivado.log
+# Journal file: W:/pre_done/NexysVideo-master/collision_detection/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/pre_done/NexysVideo-master/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.xpr

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v"
+verilog xil_defaultlib  "../../../Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0.v"
+verilog xil_defaultlib  "../../../edit_Collision_Detection_Slave_v1_0.srcs/sim_1/new/test.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

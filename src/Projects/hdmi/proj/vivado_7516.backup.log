@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Apr 11 14:32:54 2017
+# Process ID: 7516
+# Current directory: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2784 C:\Users\Mohammad\Desktop\ECE532\src\Projects\hdmi\proj\hdmi.xpr
+# Log file: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/vivado.log
+# Journal file: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/slave_to_master_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/passthrough_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/collision_detection'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/color_threshold'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:01:31 ; elapsed = 00:00:55 . Memory (MB): peak = 1172.840 ; gain = 536.867
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 11 14:34:27 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/synth_1/runme.log
+[Tue Apr 11 14:34:27 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1188.426 ; gain = 5.688

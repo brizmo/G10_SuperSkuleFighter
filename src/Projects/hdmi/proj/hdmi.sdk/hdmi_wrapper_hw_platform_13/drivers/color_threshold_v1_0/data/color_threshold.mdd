@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER color_threshold
+	OPTION supported_peripherals = (color_threshold);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = color_threshold;
+END DRIVER

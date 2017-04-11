@@ -1,0 +1,129 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 7516
+
+Current time: 	4/11/17 2:33:09 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Mohammad
+User home directory: C:/Users/Mohammad
+User working directory: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Mohammad/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Mohammad/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	181 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 415 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Mohammad\Desktop\ECE532\src\Projects\hdmi\proj\hdmi.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 37 MB (+36365kb) [00:00:07]
+// [Engine Memory]: 396 MB (+263596kb) [00:00:07]
+// Tcl Message: open_project C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 453 MB. GUI used memory: 27 MB. Current time: 4/11/17 2:33:12 PM EDT
+// [Engine Memory]: 464 MB (+50642kb) [00:00:12]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 494 MB (+7331kb) [00:00:17]
+// [Engine Memory]: 559 MB (+42005kb) [00:00:22]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+150kb) [00:00:32]
+// [Engine Memory]: 639 MB (+54111kb) [00:00:32]
+// [GUI Memory]: 44 MB (+2806kb) [00:00:32]
+// [GUI Memory]: 81 MB (+36292kb) [00:00:37]
+// [Engine Memory]: 750 MB (+83575kb) [00:00:37]
+// [GUI Memory]: 91 MB (+6667kb) [00:00:38]
+// [GUI Memory]: 100 MB (+5021kb) [00:00:39]
+// [GUI Memory]: 108 MB (+2510kb) [00:00:39]
+// [Engine Memory]: 816 MB (+29978kb) [00:00:40]
+// [GUI Memory]: 114 MB (+1109kb) [00:00:40]
+// [GUI Memory]: 120 MB (+273kb) [00:00:41]
+// [Engine Memory]: 927 MB (+72976kb) [00:00:43]
+// [GUI Memory]: 129 MB (+3010kb) [00:00:43]
+// [GUI Memory]: 138 MB (+2885kb) [00:00:46]
+// [Engine Memory]: 975 MB (+2310kb) [00:00:49]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/slave_to_master_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/ip_repo/passthrough_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/collision_detection'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Mohammad/Desktop/ECE532/src/color_threshold'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 976 MB. GUI used memory: 105 MB. Current time: 4/11/17 2:33:52 PM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Project name: hdmi; location: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:01:31 ; elapsed = 00:00:55 . Memory (MB): peak = 1172.840 ; gain = 536.867 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// [GUI Memory]: 146 MB (+1004kb) [00:01:02]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,008 MB. GUI used memory: 102 MB. Current time: 4/11/17 2:34:18 PM EDT
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Apr 11 14:34:27 2017] Launched synth_1... Run output will be captured here: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/synth_1/runme.log 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Apr 11 14:34:27 2017] Launched impl_1... Run output will be captured here: C:/Users/Mohammad/Desktop/ECE532/src/Projects/hdmi/proj/hdmi.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1188.426 ; gain = 5.688 
+// Elapsed time: 17 seconds
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 155 MB (+1138kb) [00:11:15]
+// [GUI Memory]: 164 MB (+1414kb) [00:17:08]

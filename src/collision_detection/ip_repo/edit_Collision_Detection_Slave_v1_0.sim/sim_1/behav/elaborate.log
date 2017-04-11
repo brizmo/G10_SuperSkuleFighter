@@ -1,0 +1,16 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 78e4837ae7de47d1b21639aa2816d8f3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 32 for port s00_axis_tdata [W:/ECE532/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.srcs/sim_1/new/test.v:43]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port s00_axis_tstrb [W:/ECE532/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.srcs/sim_1/new/test.v:44]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Collision_Detection_Slave_v1_0_S...
+Compiling module xil_defaultlib.Collision_Detection_Slave_v1_0
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

@@ -1,0 +1,339 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Mar 27 19:16:18 2017
+# Process ID: 3456
+# Current directory: W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_util_ds_buf_0_1_synth_1
+# Command line: vivado.exe -log hdmi_util_ds_buf_0_1.vds -mode batch -messageDb vivado.pb -notrace -source hdmi_util_ds_buf_0_1.tcl
+# Log file: W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_util_ds_buf_0_1_synth_1/hdmi_util_ds_buf_0_1.vds
+# Journal file: W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_util_ds_buf_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_util_ds_buf_0_1.tcl -notrace
+Command: synth_design -top hdmi_util_ds_buf_0_1 -part xc7a200tsbg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1356 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 335.012 ; gain = 127.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hdmi_util_ds_buf_0_1' [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/synth/hdmi_util_ds_buf_0_1.vhd:66]
+	Parameter C_BUF_TYPE bound to: BUFG - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'util_ds_buf' declared at 'w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:71' bound to instance 'U0' of component 'util_ds_buf' [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/synth/hdmi_util_ds_buf_0_1.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'util_ds_buf' [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:125]
+	Parameter C_BUF_TYPE bound to: BUFG - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-113] binding component instance 'BUFG_U' to cell 'BUFG' [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:287]
+WARNING: [Synth 8-3848] Net IBUF_OUT in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:80]
+WARNING: [Synth 8-3848] Net IBUF_DS_ODIV2 in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:81]
+WARNING: [Synth 8-3848] Net OBUF_DS_P in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:85]
+WARNING: [Synth 8-3848] Net OBUF_DS_N in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:86]
+WARNING: [Synth 8-3848] Net IOBUF_IO_O in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:93]
+WARNING: [Synth 8-3848] Net BUFGCE_O in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:102]
+WARNING: [Synth 8-3848] Net BUFH_O in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:106]
+WARNING: [Synth 8-3848] Net BUFHCE_O in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:111]
+WARNING: [Synth 8-3848] Net BUFG_GT_O in module/entity util_ds_buf does not have driver. [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:120]
+INFO: [Synth 8-256] done synthesizing module 'util_ds_buf' (1#1) [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/xilinx.com/util_ds_buf_v2_1/hdl/vhdl/util_ds_buf.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_util_ds_buf_0_1' (2#1) [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/synth/hdmi_util_ds_buf_0_1.vhd:66]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_OUT[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_ODIV2[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_IN[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_T[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CEMASK[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CLR[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CLRMASK[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[2]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[1]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 372.563 ; gain = 164.691
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 372.563 ; gain = 164.691
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/hdmi_util_ds_buf_0_1_board.xdc] for cell 'U0'
+Finished Parsing XDC File [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/hdmi_util_ds_buf_0_1_board.xdc] for cell 'U0'
+Parsing XDC File [W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_util_ds_buf_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [W:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_util_ds_buf_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 606.082 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_OUT[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_ODIV2[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_O[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_P[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IBUF_DS_N[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port OBUF_IN[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_T[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port IOBUF_IO_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFGCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFH_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFHCE_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_I[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CE[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CEMASK[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CLR[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_CLRMASK[0]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[2]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[1]
+WARNING: [Synth 8-3331] design util_ds_buf has unconnected port BUFG_GT_DIV[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 606.082 ; gain = 398.211
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 636.980 ; gain = 429.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 636.980 ; gain = 429.109
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 646.617 ; gain = 438.746
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |     1|
+|2     |  U0     |util_ds_buf |     1|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 29 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 646.617 ; gain = 154.820
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 646.617 ; gain = 438.746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/hdmi_util_ds_buf_0_1_board.xdc] for cell 'U0'
+Finished Parsing XDC File [w:/327_2/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_util_ds_buf_0_1/hdmi_util_ds_buf_0_1_board.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 67 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 661.762 ; gain = 403.484
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 661.762 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 27 19:16:49 2017...

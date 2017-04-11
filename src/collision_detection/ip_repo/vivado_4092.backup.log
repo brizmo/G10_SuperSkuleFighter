@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Mar 27 12:53:08 2017
+# Process ID: 4092
+# Current directory: W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3052 W:\ECE532\0327_colors\NexysVideo-master\collision_detection\ip_repo\edit_Collision_Detection_Slave_v1_0.xpr
+# Log file: W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo/vivado.log
+# Journal file: W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.xpr
+INFO: [Project 1-313] Project file moved from 'W:/ECE532/NexysVideo-master/collision_detection/ip_repo' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.srcs/sources_1/ip/cdn_axi_bfm_0/cdn_axi_bfm_0.xci', nor could it be found using path 'W:/ECE532/NexysVideo-master/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.srcs/sources_1/ip/cdn_axi_bfm_0/cdn_axi_bfm_0.xci'.
+Scanning sources...
+Finished scanning sources
+ERROR: [Common 17-680] Path length exceeds 248-Byte maximum allowed by Windows: W:/ECE532/0327_colors/NexysVideo-master/collision_detection/ip_repo/$PPRDIR/$PPRDIR/$PPRDIR/$PPRDIR/$PPRDIR/$PPRDIR/$PPRDIR/$PPRDIR/nfs/ug/homes-2/c/chungm13/collision_detection/ip_repo/edit_Collision_Detection_Slave_v1_0.cache/compile_simlib/modelsim
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 27 12:53:21 2017...

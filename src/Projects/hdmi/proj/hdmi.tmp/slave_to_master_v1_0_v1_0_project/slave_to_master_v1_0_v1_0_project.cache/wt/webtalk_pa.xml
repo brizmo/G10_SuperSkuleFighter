@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Mar 23 17:04:00 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="e1243efd672a49b1a701d81d291ea8e2" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="2" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="1" type="JavaHandler"/>
+<property name="NewExportHardware" value="2" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="2" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="3" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="2" type="JavaHandler"/>
+<property name="ProgramDevice" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Number of Probes, 5" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI Peripheral ;  ;  ;  ; , 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI Peripheral ;  ;  ;  ; , 3" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, slave_to_master_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; utoronto.ca:user:slave_to_master:1.0, 2, slave_to_master_v1.0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, slave_to_master_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; utoronto.ca:user:slave_to_master:1.0, 2, slave_to_master_v1.0, 0, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, slave_to_master_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; utoronto.ca:user:slave_to_master:1.0, 2, slave_to_master_v1.0, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, Launch SDK" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, slave_to_master_v1_0 - arch_imp (slave_to_master_v1_0.vhd" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Open Target], 27, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager], 26, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager, Open Target], 27, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager], 26" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="10" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="10" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_IMPORT, Import" value="5" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_DASHBOARD, dashboard_1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_DASHBOARD, hw_ila_1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_DASHBOARD, hw_ila_2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_DASHBOARD, hw_ila_3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, Refresh Changed Modules" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="9" type="GuiResourceData"/>
+<property name="bypass.v, 13, 162" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 130, 342" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 130, 342, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 130, 358" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 130, 358, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 15, 111" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 15, 125" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 15, 142" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 15, 314" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 159, 165" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 189, 138" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 209, 177" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 210, 225" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 211, 226" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 212, 222" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 214, 177" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 214, 20" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 214, 20, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 219, 164" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 220, 226" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 224, 234" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 233, 80" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 283, 307" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 294, 306" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 302, 160" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 304, 171" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 305, 185" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 310, 354" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 328, 365" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 331, 367" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 344, 368" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 345, 312" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 399, 327" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 40, 108" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

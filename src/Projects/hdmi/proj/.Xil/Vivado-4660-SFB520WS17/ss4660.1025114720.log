@@ -1,0 +1,8 @@
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 13:42:19 2017...
+_detection/ip_repo/Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v" into library work (VERI-1482)
+INFO: analyzing module Collision_Detection_Slave_v1_0_S00_AXIS (VERI-9002)
+w:/pre_done/NexysVideo-master/collision_detection/ip_repo/Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v(160): WARNING: redeclaration of ansi port red_threshold is not allowed (VERI-1372)
+w:/pre_done/NexysVideo-master/collision_detection/ip_repo/Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v(161): WARNING: redeclaration of ansi port blue_threshold is not allowed (VERI-1372)
+w:/pre_done/NexysVideo-master/collision_detection/ip_repo/Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v(70): WARNING: parameter declaration becomes local in Collision_Detection_Slave_v1_0_S00_AXIS with formal parameter declaration list (VERI-1199)
+INFO: Analyzing Verilog file "w:/pre_done/NexysVideo-master/collision_detection/ip_repo/Collision_Detection_Slave_1.0/hdl/Collision_Detection_Slave_v1_0.v" into library work (VERI-1482)
+INFO: analyzing module Collision_Detection_Slave_v1_0 (VERI-9002)

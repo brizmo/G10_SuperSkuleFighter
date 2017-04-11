@@ -1,0 +1,448 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Mar 20 17:26:39 2017
+# Process ID: 4500
+# Current directory: W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axi_dynclk_0_0_synth_1
+# Command line: vivado.exe -log hdmi_axi_dynclk_0_0.vds -mode batch -messageDb vivado.pb -notrace -source hdmi_axi_dynclk_0_0.tcl
+# Log file: W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axi_dynclk_0_0_synth_1/hdmi_axi_dynclk_0_0.vds
+# Journal file: W:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axi_dynclk_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_axi_dynclk_0_0.tcl -notrace
+Command: synth_design -top hdmi_axi_dynclk_0_0 -part xc7a200tsbg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2892 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 334.742 ; gain = 126.797
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port rst is neither a static name nor a globally static expression [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:219]
+WARNING: [Synth 8-1565] actual for formal port s1_clkout0 is neither a static name nor a globally static expression [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:221]
+WARNING: [Synth 8-1565] actual for formal port s1_clkfbout is neither a static name nor a globally static expression [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:222]
+WARNING: [Synth 8-1565] actual for formal port s1_lock is neither a static name nor a globally static expression [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'hdmi_axi_dynclk_0_0' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_axi_dynclk_0_0/synth/hdmi_axi_dynclk_0_0.vhd:86]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'axi_dynclk' declared at 'w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:10' bound to instance 'U0' of component 'axi_dynclk' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_axi_dynclk_0_0/synth/hdmi_axi_dynclk_0_0.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'axi_dynclk' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:57]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'axi_dynclk_S00_AXI' declared at 'w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk_S00_AXI.vhd:5' bound to instance 'axi_dynclk_S00_AXI_inst' of component 'axi_dynclk_S00_AXI' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'axi_dynclk_S00_AXI' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk_S00_AXI.vhd:93]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk_S00_AXI.vhd:399]
+INFO: [Synth 8-256] done synthesizing module 'axi_dynclk_S00_AXI' (1#1) [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk_S00_AXI.vhd:93]
+INFO: [Synth 8-113] binding component instance 'BUFIO_inst' to cell 'BUFIO' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:186]
+INFO: [Synth 8-113] binding component instance 'BUFMR_inst' to cell 'BUFMR' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:192]
+	Parameter BUFR_DIVIDE bound to: 5 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'BUFR_inst' to cell 'BUFR' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:198]
+	Parameter DIV_F bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'mmcme2_drp' declared at 'w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/mmcme2_drp.v:50' bound to instance 'Inst_mmcme2_drp' of component 'mmcme2_drp' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'mmcme2_drp' [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/mmcme2_drp.v:50]
+	Parameter DIV_F bound to: 2 - type: integer 
+	Parameter TCQ bound to: 100 - type: integer 
+	Parameter RESTART bound to: 4'b0001 
+	Parameter WAIT_LOCK bound to: 4'b0010 
+	Parameter WAIT_SEN bound to: 4'b0011 
+	Parameter ADDRESS bound to: 4'b0100 
+	Parameter WAIT_A_DRDY bound to: 4'b0101 
+	Parameter BITMASK bound to: 4'b0110 
+	Parameter BITSET bound to: 4'b0111 
+	Parameter WRITE bound to: 4'b1000 
+	Parameter WAIT_DRDY bound to: 4'b1001 
+	Parameter STATE_COUNT_CONST bound to: 13 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:20396]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 2.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT4_CASCADE bound to: FALSE - type: string 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: FALSE - type: string 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2016.2/scripts/rt/data/unisim_comp.v:20396]
+INFO: [Synth 8-256] done synthesizing module 'mmcme2_drp' (3#1) [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/mmcme2_drp.v:50]
+INFO: [Synth 8-256] done synthesizing module 'axi_dynclk' (4#1) [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/digilentinc.com/axi_dynclk_v1_0/src/axi_dynclk.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_axi_dynclk_0_0' (5#1) [w:/feed_through/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_axi_dynclk_0_0/synth/hdmi_axi_dynclk_0_0.vhd:86]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_dynclk_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 371.371 ; gain = 163.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 371.371 ; gain = 163.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 371.371 ; gain = 163.426
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Synth 8-802] inferred FSM for state register 'clk_state_reg' in module 'axi_dynclk'
+INFO: [Synth 8-5544] ROM "STAT_REG" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "clk_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   reset |                            00001 |                              000
+             wait_locked |                            00010 |                              001
+                 wait_en |                            00100 |                              010
+               wait_srdy |                            01000 |                              011
+                 enabled |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'clk_state_reg' using encoding 'one-hot' in module 'axi_dynclk'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 397.625 ; gain = 189.680
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               39 Bit    Registers := 1     
+	               32 Bit    Registers := 8     
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 7     
+	  10 Input     16 Bit        Muxes := 1     
+	  10 Input      7 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+	  10 Input      1 Bit        Muxes := 9     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_dynclk_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 8     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   8 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 4     
+Module mmcme2_drp 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               39 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	  10 Input     16 Bit        Muxes := 1     
+	  10 Input      7 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	  10 Input      1 Bit        Muxes := 9     
+Module axi_dynclk 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 527.367 ; gain = 319.422
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design hdmi_axi_dynclk_0_0 has unconnected port s00_axi_arprot[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 527.797 ; gain = 319.852
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 527.797 ; gain = 319.852
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[16]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[17]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[18]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[19]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[20]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[21]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[22]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/Inst_mmcme2_drp/rom_do_reg[26]' (FD) to 'U0/Inst_mmcme2_drp/rom_do_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/axi_dynclk_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/axi_dynclk_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/axi_dynclk_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/axi_dynclk_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/axi_dynclk_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/axi_dynclk_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_bresp_reg[0]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/axi_dynclk_S00_AXI_inst/axi_rresp_reg[0]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[26]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[22]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[21]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[20]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[19]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[18]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[17]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/Inst_mmcme2_drp/rom_do_reg[16]) is unused and will be removed from module hdmi_axi_dynclk_0_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 548.344 ; gain = 340.398
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 548.344 ; gain = 340.398
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 548.344 ; gain = 340.398
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFIO      |     1|
+|2     |BUFMR      |     1|
+|3     |BUFR       |     1|
+|4     |LUT1       |     3|
+|5     |LUT2       |     4|
+|6     |LUT3       |    12|
+|7     |LUT4       |    43|
+|8     |LUT5       |   113|
+|9     |LUT6       |    59|
+|10    |MMCME2_ADV |     1|
+|11    |MUXF7      |    32|
+|12    |FDRE       |   338|
+|13    |FDSE       |     5|
++------+-----------+------+
+
+Report Instance Areas: 
++------+----------------------------+-------------------+------+
+|      |Instance                    |Module             |Cells |
++------+----------------------------+-------------------+------+
+|1     |top                         |                   |   613|
+|2     |  U0                        |axi_dynclk         |   613|
+|3     |    Inst_mmcme2_drp         |mmcme2_drp         |   142|
+|4     |    axi_dynclk_S00_AXI_inst |axi_dynclk_S00_AXI |   461|
++------+----------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 550.586 ; gain = 342.641
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 550.586 ; gain = 292.473
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 550.586 ; gain = 342.641
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 618.137 ; gain = 360.023
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+write_checkpoint: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.121 ; gain = 460.984
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1079.121 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 20 17:27:34 2017...

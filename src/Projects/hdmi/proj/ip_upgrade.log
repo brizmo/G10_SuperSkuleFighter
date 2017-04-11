@@ -1,0 +1,971 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Mar 29 14:59:06 2017
+| Host         : SFB520WS17 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Mar 29 12:44:53 2017
+| Host         : SFB520WS17 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_color_threshold_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_color_threshold_0_0 (utoronto.ca:user:color_threshold:1.0) from (Rev. 3) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_color_threshold_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'initial_health'
+
+-Upgrade has added port 'single_length'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Mar 29 12:17:53 2017
+| Host         : SFB520WS17 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Mar 27 14:09:07 2017
+| Host         : SFB520WS28 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 32) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Mar 27 13:23:22 2017
+| Host         : SFB520WS28 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 31) to (Rev. 32)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'manual_threshold'
+
+-Upgrade has added port 'blue_minimum'
+
+-Upgrade has added port 'blue_threshold'
+
+-Upgrade has added port 'red_minimum'
+
+-Upgrade has added port 'red_threshold'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 23 18:33:41 2017
+| Host         : SFB520WS14 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 28) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 23 18:30:27 2017
+| Host         : SFB520WS14 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 23 18:23:15 2017
+| Host         : SFB520WS14 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 23 17:42:22 2017
+| Host         : SFB520WS14 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 25) to (Rev. 26)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'end_frame'
+
+-Upgrade has removed port 'relative_blue_squared'
+
+-Upgrade has removed port 'relative_red_squared'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 23 17:38:53 2017
+| Host         : SFB520WS14 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0 (Rev. 25)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Mon Mar 20 17:19:58 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 16 15:57:17 2017
+| Host         : SFB520WS06 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 23) to (Rev. 24)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'relative_red_squared'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 16 14:09:16 2017
+| Host         : SFB520WS06 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0 (Rev. 23)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 16 14:08:33 2017
+| Host         : SFB520WS06 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'relative_blue_squared' width 18 differs from original width 1
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 16 14:05:42 2017
+| Host         : SFB520WS06 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 20) to (Rev. 22)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'relative_blue_squared'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Mar 15 16:36:06 2017
+| Host         : SFB520WS39 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Wed Mar 15 16:18:45 2017
+| Host         : SFB520WS39 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 18) to (Rev. 19)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_Collision_Detection_Slave_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'manual_threshold'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 20:37:33 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0 (Rev. 18)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 17:58:00 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0 (Rev. 18)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 17:26:37 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_Collision_Detection_Slave_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_Collision_Detection_Slave_0_0 (user.org:user:Collision_Detection_Slave:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_v_vid_in_axi4s_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_v_vid_in_axi4s_0_0 (xilinx.com:ip:v_vid_in_axi4s:4.0) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_v_tc_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_v_tc_1_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_v_tc_0_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_rst_mig_7series_0_pxl_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_rst_mig_7series_0_pxl_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_rst_mig_7series_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_rst_mig_7series_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_mig_7series_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_mig_7series_0_0 from xilinx.com:ip:mig_7series:2.4 to xilinx.com:ip:mig_7series:4.0
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_microblaze_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_microblaze_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 7) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_microblaze_0_axi_intc_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_microblaze_0_axi_intc_0 (xilinx.com:ip:axi_intc:4.1) from (Rev. 5) to (Rev. 7)
+
+2. Upgrade messages
+-------------------
+
+Added parameter C_IRQ_CONNECTION with value 0 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_microblaze_0_0 from xilinx.com:ip:microblaze:9.5 (Rev. 2) to xilinx.com:ip:microblaze:9.6 (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_mdm_1_0 (xilinx.com:ip:mdm:3.2) from (Rev. 4) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_lmb_bram_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.3) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_ilmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_ilmb_v10_0 (xilinx.com:ip:lmb_v10:3.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 7) to (Rev. 9)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_dlmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_dlmb_v10_0 (xilinx.com:ip:lmb_v10:3.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0) from (Rev. 7) to (Rev. 9)
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.2) from (Rev. 5) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_axi_uartlite_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_axi_uartlite_0_0 (xilinx.com:ip:axi_uartlite:2.0) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_axi_timer_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_axi_timer_0_0 (xilinx.com:ip:axi_timer:2.0) from (Rev. 8) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 7) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Thu Mar 09 14:46:16 2017
+| Host         : SFB520WS40 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_axi_gpio_video_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_axi_gpio_video_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 8) to (Rev. 11)
+

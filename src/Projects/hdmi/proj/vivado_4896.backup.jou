@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 11:14:57 2017
+# Process ID: 4896
+# Current directory: C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4836 C:\Users\Mohammad\Desktop\NexysVideo-master\Projects\hdmi\proj\hdmi.xpr
+# Log file: C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/vivado.log
+# Journal file: C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.xpr
+update_compile_order -fileset sources_1
+file copy -force C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.sysdef C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/impl_1/hdmi_wrapper.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_1"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_3 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_3"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_4 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_4"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_5 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"hdmi_i/ila_5"}]]
+launch_sdk -workspace C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk -hwspec C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+save_wave_config {C:/Users/Mohammad/Desktop/NexysVideo-master/Projects/hdmi/proj/hdmi.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}

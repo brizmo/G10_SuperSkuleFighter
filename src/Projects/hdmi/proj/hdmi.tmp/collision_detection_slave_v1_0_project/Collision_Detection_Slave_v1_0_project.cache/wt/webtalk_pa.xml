@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Mar 27 14:03:26 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="7a142ec8b7df46dda2cdbc1de3205b21" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="3" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="3" type="JavaHandler"/>
+<property name="ValidateRSBDesign" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Collision_Detection_Slave_v1_0.v, 131, 235" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0.v, 216, 239" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0.v, 311, 229" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0.v, 462, 241" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI Peripheral ;  ;  ;  ; , 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Collision_Detection_Slave_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; user.org:user:Collision_Detection_Slave:1.0, 6, Collision_Detection_Slave_v1.0, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Collision_Detection_Slave_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; user.org:user:Collision_Detection_Slave:1.0, 6, Collision_Detection_Slave_v1.0, 0, false, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_CUSTOMIZE_CORE, Customize IP..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="3" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_RESET_RUNS, Reset Runs" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, validate_bd_design_rsb" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, hdmi_Collision_Detection_Slave_0_0_synth_1 ; hdmi_Collision_Detection_Slave_0_0 ; synth_design ERROR ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Mar 27 13:56:17 EDT 2017 ; 00:00:06 ; Vivado Synthesis Defaults (Vivado Synthesis 2016" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, hdmi_mig_7series_0_0_synth_1 ; hdmi_mig_7series_0_0 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Collision_Detection_Slave_v1_0 (Collision_Detection_Slave_v1_0.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Package IP], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, Merge changes from Customization Parameters Wizard" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, Out-of-Context Module Runs, hdmi, hdmi_Collision_Detection_Slave_0_0_synth_1, [Synth 8-448] named port connection 'manual_threshold' does not exist for instance 'Collision_Detection_Slave_v1_0_S00_AXIS_inst' of module 'Collision_Detection_Slave_v1_0_S00_AXIS' [w:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0.v:52]. ], 10, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgView_ERROR_MESSAGES, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgView_WARNING_MESSAGES, (String" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Customization Parameters, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Review and Package, 7" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, Re-Package IP" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.StateMonitor_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, Expand/Collapse" value="4" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation" value="4" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, Reset" value="1" type="GuiResourceData"/>
+<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="6" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="5" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="3" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# 
+# Start of session at: Thu Mar 16 16:43:32 2017
+# Process ID: 2620
+# Current directory: w:/ECE532/NexysVideo-master/Projects/hdmi/proj
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2016.2/scripts/updatemem/main.tcl -notrace -tclargs -meminfo W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/hdmi_wrapper.mmi -data C:/Xilinx/SDK/2016.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc hdmi_i/microblaze_0 -bit W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/hdmi_wrapper.bit -out W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit -force
+# Log file: w:/ECE532/NexysVideo-master/Projects/hdmi/proj/updatemem.log
+# Journal file: w:/ECE532/NexysVideo-master/Projects/hdmi/proj\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2016.2/scripts/updatemem/main.tcl -notrace
+Loading bitfile W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/hdmi_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit...
+update_mem: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 500.195 ; gain = 448.805
+INFO: [Common 17-206] Exiting updatemem at Thu Mar 16 16:43:51 2017...

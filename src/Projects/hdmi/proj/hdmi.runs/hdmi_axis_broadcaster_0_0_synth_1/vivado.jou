@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Mar 27 11:29:25 2017
+# Process ID: 3744
+# Current directory: W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axis_broadcaster_0_0_synth_1
+# Command line: vivado.exe -log hdmi_axis_broadcaster_0_0.vds -mode batch -messageDb vivado.pb -notrace -source hdmi_axis_broadcaster_0_0.tcl
+# Log file: W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axis_broadcaster_0_0_synth_1/hdmi_axis_broadcaster_0_0.vds
+# Journal file: W:/ECE532/0327_colors/NexysVideo-master/Projects/hdmi/proj/hdmi.runs/hdmi_axis_broadcaster_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source hdmi_axis_broadcaster_0_0.tcl -notrace

@@ -1,0 +1,402 @@
+
+*** Running vivado
+    with args -log hdmi_Collision_Detection_Slave_0_0.vds -m64 -mode batch -messageDb vivado.pb -notrace -source hdmi_Collision_Detection_Slave_0_0.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source hdmi_Collision_Detection_Slave_0_0.tcl -notrace
+Command: synth_design -top hdmi_Collision_Detection_Slave_0_0 -part xc7a200tsbg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5864 
+WARNING: [Synth 8-2611] redeclaration of ansi port red_threshold is not allowed [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:160]
+WARNING: [Synth 8-976] red_threshold has already been declared [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:160]
+WARNING: [Synth 8-2654] second declaration of red_threshold ignored [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:160]
+INFO: [Synth 8-994] red_threshold is declared here [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:23]
+WARNING: [Synth 8-2611] redeclaration of ansi port blue_threshold is not allowed [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:161]
+WARNING: [Synth 8-976] blue_threshold has already been declared [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:161]
+WARNING: [Synth 8-2654] second declaration of blue_threshold ignored [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:161]
+INFO: [Synth 8-994] blue_threshold is declared here [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Collision_Detection_Slave_v1_0_S00_AXIS with formal parameter declaration list [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:72]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 345.027 ; gain = 137.195
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hdmi_Collision_Detection_Slave_0_0' [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_Collision_Detection_Slave_0_0/synth/hdmi_Collision_Detection_Slave_0_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'Collision_Detection_Slave_v1_0' [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0.v:4]
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Collision_Detection_Slave_v1_0_S00_AXIS' [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:4]
+	Parameter COORDINATE_SIZE bound to: 16 - type: integer 
+	Parameter H_RESOLUTION bound to: 1920 - type: integer 
+	Parameter V_RESOLUTION bound to: 1080 - type: integer 
+	Parameter NUMBER_OF_INPUT_WORDS bound to: 1920 - type: integer 
+	Parameter color_diff bound to: 50 - type: integer 
+	Parameter red_hit_boundary bound to: 425 - type: integer 
+	Parameter blue_hit_boundary bound to: 854 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter bit_num bound to: 11 - type: integer 
+	Parameter bit_num_x bound to: 11 - type: integer 
+	Parameter bit_num_y bound to: 11 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter WRITE_FIFO bound to: 2'b01 
+INFO: [Synth 8-256] done synthesizing module 'Collision_Detection_Slave_v1_0_S00_AXIS' (1#1) [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:4]
+INFO: [Synth 8-256] done synthesizing module 'Collision_Detection_Slave_v1_0' (2#1) [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'hdmi_Collision_Detection_Slave_0_0' (3#1) [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ip/hdmi_Collision_Detection_Slave_0_0/synth/hdmi_Collision_Detection_Slave_0_0.v:56]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[31]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[30]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[29]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[28]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[27]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[26]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[25]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[24]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TSTRB[3]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TSTRB[2]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TSTRB[1]
+WARNING: [Synth 8-3331] design Collision_Detection_Slave_v1_0_S00_AXIS has unconnected port S_AXIS_TSTRB[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 364.828 ; gain = 156.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 364.828 ; gain = 156.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 364.828 ; gain = 156.996
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:194]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:195]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:194]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:195]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:194]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:195]
+INFO: [Synth 8-5546] ROM "previous_red_zone" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "out_red_dead" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "out_blue_dead" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 401.672 ; gain = 193.840
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---RAMs : 
+	              15K Bit         RAMs := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Collision_Detection_Slave_v1_0_S00_AXIS 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---RAMs : 
+	              15K Bit         RAMs := 3     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 521.781 ; gain = 313.949
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:194]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [w:/pre_done/NexysVideo-master/Projects/hdmi/proj/hdmi.srcs/sources_1/bd/hdmi/ipshared/user.org/collision_detection_slave_v1_0/hdl/Collision_Detection_Slave_v1_0_S00_AXIS.v:195]
+INFO: [Synth 8-5546] ROM "inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/previous_red_zone" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1, operation Mode is: A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1, operation Mode is: A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_blue_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1, operation Mode is: A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1, operation Mode is: A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: Generating DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+DSP Report: operator inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1 is absorbed into DSP inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/relative_red_squared1.
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[31]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[30]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[29]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[28]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[27]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[26]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[25]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tdata[24]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tstrb[3]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tstrb[2]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tstrb[1]
+WARNING: [Synth 8-3331] design hdmi_Collision_Detection_Slave_0_0 has unconnected port s00_axis_tstrb[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 523.262 ; gain = 315.430
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 523.262 ; gain = 315.430
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------------+-----------------------------------------------------------------------+-----------+----------------------+---------------------------------+
+|Module Name                        | RTL Object                                                            | Inference | Size (Depth x Width) | Primitives                      | 
++-----------------------------------+-----------------------------------------------------------------------+-----------+----------------------+---------------------------------+
+|hdmi_Collision_Detection_Slave_0_0 | inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/red_data_fifo_reg   | Implied   | 2 K x 8              | RAM128X1S x 8  RAM256X1S x 56   | 
+|hdmi_Collision_Detection_Slave_0_0 | inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/green_data_fifo_reg | Implied   | 2 K x 8              | RAM128X1S x 8  RAM256X1S x 56   | 
+|hdmi_Collision_Detection_Slave_0_0 | inst/Collision_Detection_Slave_v1_0_S00_AXIS_inst/blue_data_fifo_reg  | Implied   | 2 K x 8              | RAM128X1S x 8  RAM256X1S x 56   | 
++-----------------------------------+-----------------------------------------------------------------------+-----------+----------------------+---------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hdmi_Collision_Detection_Slave_0_0 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hdmi_Collision_Detection_Slave_0_0 | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-----------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 556.203 ; gain = 348.371
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 556.203 ; gain = 348.371
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 556.203 ; gain = 348.371
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 557.809 ; gain = 349.977
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    82|
+|2     |DSP48E1   |     6|
+|3     |LUT1      |    42|
+|4     |LUT2      |   246|
+|5     |LUT3      |    54|
+|6     |LUT4      |   108|
+|7     |LUT5      |    62|
+|8     |LUT6      |   139|
+|9     |RAM128X1S |    24|
+|10    |RAM256X1S |   168|
+|11    |FDRE      |    70|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------+----------------------------------------+------+
+|      |Instance                                         |Module                                  |Cells |
++------+-------------------------------------------------+----------------------------------------+------+
+|1     |top                                              |                                        |  1001|
+|2     |  inst                                           |Collision_Detection_Slave_v1_0          |  1001|
+|3     |    Collision_Detection_Slave_v1_0_S00_AXIS_inst |Collision_Detection_Slave_v1_0_S00_AXIS |  1001|
++------+-------------------------------------------------+----------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 31 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 557.809 ; gain = 299.223
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 557.809 ; gain = 349.977
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 280 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hdmi_Collision_Detection_Slave_0_0' is not ideal for floorplanning, since the cellview 'Collision_Detection_Slave_v1_0_S00_AXIS' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 192 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E, RAMS64E): 24 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 168 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 628.652 ; gain = 370.066
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1034.496 ; gain = 405.844
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1034.496 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 15:12:51 2017...

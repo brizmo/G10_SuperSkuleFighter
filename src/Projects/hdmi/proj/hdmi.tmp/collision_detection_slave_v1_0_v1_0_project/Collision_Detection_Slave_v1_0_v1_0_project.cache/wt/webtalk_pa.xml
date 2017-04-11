@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Mar 29 14:54:06 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="ed50fc5b8fa947f1b48ca7a8da41ab65" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="2" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="1" type="JavaHandler"/>
+<property name="NewExportHardware" value="1" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="3" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="1" type="JavaHandler"/>
+<property name="ProgramDevice" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 103, 175" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 105, 383" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 105, 77" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 106, 383" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 114, 60" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 115, 228" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 118, 382" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 123, 378" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 127, 73" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 130, 83, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 131, 77" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 132, 72" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 137, 75" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 138, 196" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 147, 281" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 147, 281, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 154, 179" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 157, 452" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 157, 452, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 159, 41" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 162, 175" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 165, 176" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 166, 343" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 171, 40" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 173, 373" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 176, 44" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 178, 44" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 181, 229, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 186, 317, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 191, 45" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 193, 279" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 194, 45" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 202, 322" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 204, 37" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 209, 228" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 209, 228, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 218, 351" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 221, 333" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 237, 227" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 257, 208, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 26, 430" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 281, 316" value="1" type="GuiResourceData"/>
+<property name="Collision_Detection_Slave_v1_0_S00_AXIS.v, 339, 309" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, AXI Peripheral ;  ;  ;  ; , 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Collision_Detection_Slave_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; user.org:user:Collision_Detection_Slave:1.0, 6, 1.0, 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, Collision_Detection_Slave_v1.0 ; AXI4-Stream ; Pre-Production ; Included ; user.org:user:Collision_Detection_Slave:1.0, 6, 1.0, 1, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_EXPORT_HARDWARE, Export Hardware..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, Launch SDK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, Open Hardware Manager" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Collision_Detection_Slave_v1_0 (Collision_Detection_Slave_v1_0.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, hdmi_wrapper - STRUCTURE (hdmi_wrapper.vhd" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, IP Integrator, Open Block Design], 7, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Open Target], 27, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager, Program Device], 28, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager], 26, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, IP Catalog], 4, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Package IP], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, Open Recent IP Location" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, Include bitstream, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Review and Package, 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, Refresh Changed Modules" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, Re-Package IP" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_CUT, Cut" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_PASTE, Paste" value="1" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_UNDO, (String" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 0, 292" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 1, 299, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 108, 99" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 111, 501, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 113, 361" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 115, 481" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 140, 249" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 141, 403, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 141, 475" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 148, 80, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 157, 265" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 161, 263, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 161, 264" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 162, 351" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 163, 434" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 167, 207, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 167, 333" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 168, 196" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 168, 345" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 170, 214, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 171, 301, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 171, 407" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 173, 149, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 173, 193" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 173, 265" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 175, 408" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 175, 423" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 176, 349" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 178, 211" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 178, 395" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 179, 419" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 180, 179, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 180, 394" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 180, 419" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 185, 162" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 185, 286" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 187, 366" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 187, 422" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 192, 161" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 194, 314, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 195, 468" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 197, 313" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 198, 164" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 199, 190" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 199, 383" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 200, 268" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 201, 130" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 201, 352" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 208, 184" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 208, 184, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 215, 114" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 215, 75" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 216, 327" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 219, 120" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 224, 310" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 225, 519" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 227, 236" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 232, 195" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 240, 141" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 240, 285" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 246, 214" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 247, 160" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 251, 244" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 253, 303" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 256, 309" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 256, 309, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 260, 299" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 261, 142" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 262, 434" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 277, 168" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 287, 108" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 297, 343" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 303, 356" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 304, 200, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 304, 374" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 304, 445, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 306, 349, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 306, 367" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 309, 349" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 309, 407" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 312, 390" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 315, 122" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 328, 332" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 331, 363, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 333, 279" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 345, 401" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 353, 110" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 364, 472, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 364, 486, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 382, 302" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 389, 334" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 414, 161" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 414, 276" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 420, 315" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 463, 440" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 468, 159" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 472, 328" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 478, 250" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 524, 248" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 535, 312" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 545, 221" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 561, 329" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 6, 282" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 635, 312" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 688, 330" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 7, 292" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 705, 313" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 784, 313" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 876, 279" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 903, 162" value="1" type="GuiResourceData"/>
+<property name="bypass.v, 97, 238" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="2" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="1" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
