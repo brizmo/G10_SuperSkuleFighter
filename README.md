@@ -7,7 +7,7 @@
 
 ### Augmented Reality Fighting Game (similar to Street Fighter)
 
-![alt] ( http://www.nintendoworldreport.com/media/27386/4/3.jpg "SF" )
+![alt] ( http://www.slate.com/content/dam/slate/blogs/wild_things/2014/07/10/140710_WILD_Hamster.jpg.CROP.promo-mediumlarge.jpg "SF" )
 #### Features:
 * Live HDMI video feed from camera as input (720p, 60FPS)
 * Green screen background that immerses players in different environments
