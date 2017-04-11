@@ -44,7 +44,7 @@ Instructions:
     
 ### Repository Structure:
 * __src:__ the project files
-      * __Projects/hdmi:__ the main project folder
+   * __Projects/hdmi:__ the main project folder
             * __proj:__
                   * __hdmi.xpc:__ the vivado project file
                   * __hdmi.srcs/sources_1/new/:__ location of two standalone verilog files
