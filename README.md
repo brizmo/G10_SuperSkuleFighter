@@ -1,9 +1,5 @@
 # ECE532 2017, G10
 # Super Skule Fighter A.R. Artix VII Turbo Edition
-## Team Members:
-* Mohammad Tabrizi
-* Marco Chung
-* Xingyu Wan
 
 ### Augmented Reality Fighting Game (similar to Street Fighter)
 
@@ -68,4 +64,8 @@ Instructions:
 
 * __README.md:__ general description of the project
 
+## Authors:
+* Mohammad Tabrizi
+* Marco Chung
+* Xingyu Wan
 
