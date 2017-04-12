@@ -31,9 +31,9 @@ Required Items:
 Instructions:
 1. Download src diretory onto host computer
 2. Open hdmi.xpr in _/src/Projects/hdmi/proj_
-3. There is a default Bit Stream but if you want, run synthesis and implementation and generate new bitstream
+3. Run synthesis and implementation and generate new bitstream
 4. Connect board to computer, camera, and monitor
-5. Open SDK (export hardware if you created a new bitstream)
+5. Export Hardware, open SDK and link to newly exported hardware
 6. Program FPGA using bitstream
 7. Build and run
     * The thresholds for color detection can be changed through the video_demo.c file 
