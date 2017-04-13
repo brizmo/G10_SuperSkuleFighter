@@ -60,7 +60,9 @@ Instructions:
    * __demo_video.wmv:__ video demonstration of the project in operation
    * __group_report.pdf:__ report file
 
-* __input_data:__ contains images, photoshop, and scripts used for generating .coe files
+* __input_data:__ contains images, photoshop, .hex and .coe files
+
+* __community_contribution:__ contains community contribution documents and script for generating .coe and .hex files from RGB images
 
 * __README.md:__ general description of the project
 
