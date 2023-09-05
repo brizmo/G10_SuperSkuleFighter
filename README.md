@@ -67,7 +67,7 @@ Instructions:
 * __README.md:__ general description of the project
 
 ### Authors:
-* Mohammad Tabrizi
+* Mohammad Bagherbeik
 * Marco Chung
 * Xingyu Wan
 
